@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "646820972692",
+    "firebase_url": "https://voxmessagingapp.firebaseio.com",
+    "project_id": "voxmessagingapp",
+    "storage_bucket": "voxmessagingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646820972692:android:757f25b900d38fd0",
+        "android_client_info": {
+          "package_name": "com.bishalchakraborty.macky.vox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646820972692-t5r11v0qba0lni9rgk8hdo1srsm0q39m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bishalchakraborty.macky.vox",
+            "certificate_hash": "649b7f815caa5145be87f4208026acbf92317857"
+          }
+        },
+        {
+          "client_id": "646820972692-qooia5b9ri76aqm8jf4eaccsk3cmoaej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeOX4VIlpPgXvsltLEHw6fSxLNkDX_WAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646820972692-qooia5b9ri76aqm8jf4eaccsk3cmoaej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

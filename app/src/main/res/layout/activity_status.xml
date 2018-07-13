@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/changeStatus_toolbar"
+        layout="@layout/app_bar_layout"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/new_Status"
+        android:layout_below="@id/changeStatus_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/changeStatus_toolbar">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Status" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/change_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_below="@id/new_Status"
+        android:text="Change Status"
+        android:textAllCaps="false"
+
+        app:layout_constraintTop_toBottomOf="@+id/new_Status" />
+
+
+
+    </RelativeLayout>
